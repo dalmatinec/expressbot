@@ -1,9 +1,4 @@
 # main.py
-from keep_alive import keep_alive
-
-keep_alive()  # запускает веб-сервер
-# дальше твой код бота
-
 from pathlib import Path  
 import logging
 from telegram.ext import (
